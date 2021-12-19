@@ -19,10 +19,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".main"
-            android:exported="true"
-            >
-        </activity>
+            android:name=".Main"
+            />
+
 
         <meta-data
             android:name="preloaded_fonts"

@@ -1,9 +1,9 @@
 package com.example.myapplication
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import androidx.appcompat.app.AppCompatActivity
 
 class SplashActivity : AppCompatActivity() {
     private val splashScreen=2000
@@ -12,7 +12,7 @@ class SplashActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
         Handler().postDelayed({
             startActivity(intent)
-            val intent = Intent(this@SplashActivity,main::class.java)
+            val intent = Intent(this@SplashActivity,Main::class.java)
             startActivity(intent)
             finish()
         }, splashScreen.toLong())

@@ -10,8 +10,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="138dp"
-        android:layout_height="127dp"
+        android:layout_width="160dp"
+        android:layout_height="123dp"
         android:fontFamily="@font/akronim"
         android:text="@string/blog"
         android:textSize="90sp"
@@ -20,7 +20,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.777" />
+        app:layout_constraintVertical_bias="0.773" />
 
     <ImageView
         android:id="@+id/imageView2"
